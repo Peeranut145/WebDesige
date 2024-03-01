@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 0.5rem;
+    background-color: #f7f7f7;
+
+}
+.nav-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:1rem auto;
+
+}
+.nav-logo img{
+    width: 10rem;
+    margin: 0 1.5rem;
+    border-style: solid;
+    border-color: rgb(189, 189, 186);
+    border-width: 0.4rem;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav-menu li {
+    margin: 0 2rem;
+}
+.nav-menu a {
+    text-decoration: none;
+}
+
+.nav-contact {
+    align-items: center;
+    display: flex;
+    margin: 0 3rem;
+}
+.nav-contact a {
+    margin: 0 0.3rem;
+    text-decoration: none;
+}
+
+
+.sec1 {
+    background-image: url(/img/Gallary/1.jpg);
+    padding: 0.5rem;
+    background-size: 100% 100%;    /*ขยายภาพ 100๔*/
+    background-attachment: fixed;
+}
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+.blog-slide {
+    width: 100%;
+    margin: 5rem 0;
+}
+.blog-info {
+    margin: 6rem 5rem;
+    display: inline-block;
+    background-color: rgb(224, 231, 203);
+    padding: 1rem 2.5rem;
+}
+.blog-info h1{
+    margin-bottom: 2rem;
+}
+.blog-info p {
+    color: #070606;
+    
+}
+.blog-info .blog-infoPrice h1 {
+    display: inline-block;
+    padding: 0.7rem;
+    background-color: rgb(252, 54, 19);
+    margin-top: 2.5rem;
+    border-radius: 3rem;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.blog-info .price h2 {
+    margin: 2rem 0;
+    color: #050404;
+    font-size: 3rem;
+}
+.price {
+    display: flex;
+}
