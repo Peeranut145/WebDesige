@@ -97,3 +97,119 @@
 .price {
     display: flex;
 }
+
+
+.sec2 {
+    background-color: #d6d4d0;
+    padding: 0.5rem;
+}
+.blog2-con {
+    display: flex;
+    column-gap: 6rem;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.blog2-img img {
+    width: 150%;
+    margin-right: 2rem;
+    border: solid snow;
+    border-radius: 5rem;
+}
+.blog2-info h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.blog2-info-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    border-top: 0.1rem solid black ;
+    border-bottom: 0.1rem solid black ;
+}
+.info-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    margin: 2rem 0;
+}
+.info-from  h2{
+    margin: 1.5rem 0;
+    
+}
+.info-from  h3{
+    margin-bottom: 1.5rem;
+    
+}
+
+/* ==================================================================================================================== 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map { height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+/*===================================================================================================================*/
+.loca-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sec3 { 
+    background-color: #f1b844;
+    padding: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerbg {
+    background-color: #3954a0;
+    padding: 1.5rem;
+}
+.footer-con {
+    display: grid;
+    margin: 0 15rem;
+}
+.footer-info {
+    margin: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+.footer-info h1 {
+    color: #cf8d12;
+}
+.footer-contact a {
+    margin: 3rem 3.5rem;
+    text-decoration: none;
+    color: #fff;
+}
